@@ -228,7 +228,7 @@ Internal service communication is defined with **gRPC** and Protocol Buffers (`S
 ## Project Structure
 
 ```text
-go-job-platform/
+taskforge/
 ├── cmd/
 │   ├── api/                 # API entrypoint
 │   └── worker/              # Worker entrypoint
@@ -277,8 +277,8 @@ go-job-platform/
 ### Setup
 
 ```bash
-git clone https://github.com/<your-username>/go-job-platform.git
-cd go-job-platform
+git clone https://github.com/christojohnsonv/taskforge.git
+cd taskforge
 ```
 
 Create a `.env` file:
